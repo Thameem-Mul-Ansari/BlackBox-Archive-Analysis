@@ -8,4 +8,3 @@ pydub
 python-docx
 groq
 langchain_groq
-chroma-db
