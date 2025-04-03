@@ -1,7 +1,9 @@
-import time
-import streamlit as st
+import sys
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import os
-os.environ['CREWAI_NO_EMBEDDINGS'] = '1'
+os.environ['CREWAI_NO_EMBEDDINGS'] = '1'import time
+import streamlit as st
 import base64
 import random
 import re
