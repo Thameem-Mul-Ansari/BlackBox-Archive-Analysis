@@ -1,6 +1,7 @@
 import time
 import streamlit as st
 import os
+os.environ['CREWAI_NO_EMBEDDINGS'] = '1'
 import base64
 import random
 import re
