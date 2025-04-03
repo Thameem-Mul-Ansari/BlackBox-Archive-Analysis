@@ -1,6 +1,6 @@
 streamlit 
-pysqlite3-binary>=3.45.0
-crewai>=0.28.8
+pysqlite3-binary
+crewai
 crewai[tools]
 python-dotenv
 openai
